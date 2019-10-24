@@ -1,0 +1,9 @@
+[submodule "enblend-enfuse"]
+	path = enblend-enfuse
+	url = git@github.com:kyflores/enblend-enfuse.git
+[submodule "bm3d"]
+	path = bm3d
+	url = https://github.com/kyflores/bm3d
+[submodule "hugin"]
+	path = hugin
+	url = https://github.com/kyflores/hugin
