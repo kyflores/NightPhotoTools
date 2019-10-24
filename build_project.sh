@@ -9,23 +9,20 @@ mkdir -p build/hugin/
 
 cd ${PROJECT_ROOT}/build/bm3d/
 cmake ${PROJECT_ROOT}/bm3d/             \
-    -DCMAKE_BUILD_TYPE=Release          \
-    -DCMAKE_INSTALL_PREFIX=/opt/bm3d/
+    -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc --ignore 1)
 make install
 
 cd ${PROJECT_ROOT}/build/enblend-enfuse/
 cmake ${PROJECT_ROOT}/enblend-enfuse/   \
     -DCMAKE_BUILD_TYPE=Release          \
-    -DENABLE_OPENMP=ON                  \
-    -DCMAKE_INSTALL_PREFIX=/opt/enblend/
+    -DENABLE_OPENMP=ON
 make -j$(nproc --ignore 1)
 make install
 
 cd ${PROJECT_ROOT}/build/hugin/
 cmake ${PROJECT_ROOT}/hugin/            \
-    -DCMAKE_BUILD_TYPE=Release          \
-    -DCMAKE_INSTALL_PREFIX=/opt/hugin/
+    -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc --ignore 1)
 make install
 
