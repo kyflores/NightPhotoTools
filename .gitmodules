@@ -3,7 +3,7 @@
 	url = git@github.com:kyflores/enblend-enfuse.git
 [submodule "bm3d"]
 	path = bm3d
-	url = https://github.com/kyflores/bm3d
+	url = git@github.com:kyflores/bm3d.git
 [submodule "hugin"]
 	path = hugin
-	url = https://github.com/kyflores/hugin
+	url = git@github.com:kyflores/hugin.git
