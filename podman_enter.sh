@@ -11,4 +11,6 @@ podman run -it --rm \
 	--security-opt seccomp=unconfined \
 	--device=/dev/kfd \
 	--device=/dev/dri \
+	--shm-size=1G \
 	--group-add video night_photo_tools:latest
+
